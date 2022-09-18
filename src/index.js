@@ -1,3 +1,4 @@
+import "babel-polyfill";
 import renderer from "./helpers/renderer";
 import express from "express";
 const app = express();
