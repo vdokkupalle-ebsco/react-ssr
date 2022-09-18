@@ -20,6 +20,10 @@ class UsersList extends Component {
   }
 }
 
+export const loadData = (store) => {
+  return store.dispatch(fetchUsers());
+};
+
 const mapStateToProps = (state) => {
   return { users: state.users };
 };
